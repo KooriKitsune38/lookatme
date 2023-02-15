@@ -1,0 +1,2 @@
+execute as @a if predicate lookatme:c01 at @s anchored eyes unless entity @e[type=item_display,tag=.spooker,distance=..5] run summon minecraft:item_display ^ ^ ^-2 {item:{id:"ender_eye",Count:1b},brightness:{sky:0,block:10},billboard:center,Tags:[.spooker]}
+schedule function lookatme:main1s 1s
